@@ -1,6 +1,6 @@
 <svg width="1280" height="832" viewBox="0 0 1280 832" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_47_4)">
-<rect width="1280" height="832" fill="white"/>
+<rect width="1280" height="832" fill="#F8F9FA"/>
 <g filter="url(#filter0_d_47_4)">
 <rect x="36" y="128" width="1207" height="575" fill="url(#pattern0_47_4)" shape-rendering="crispEdges"/>
 <rect x="37" y="129" width="1205" height="573" stroke="black" stroke-width="2" shape-rendering="crispEdges"/>
