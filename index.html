@@ -35,11 +35,19 @@
   <body id="page-top">
     <script>
       $(document).ready(function () {
-          $("#logo").fadeIn(2000);
+        $("#logo").fadeIn(5000);
       });
 
       $(document).ready(function(){
-          $('#nom').fadeIn(2000);
+        $('#nom').fadeIn(5000);
+      });
+
+      $(document).ready(function(){
+        $('#siteprefo').fadeIn(5000);
+      });
+
+      $(document).ready(function(){
+        $('#presentation').slideDown();
       });
     </script>
     <!-- Navigation-->
@@ -96,7 +104,7 @@
       <div class="col-lg-8">
         <h2 class="text-white mb-4">Présentation</h2>
         <br><br>
-        <p class="text-white-50 animate__animated animate__fadeIn" data-wow-delay="0.5s">
+        <p id="presentation" class="text-white-50">
           Étudiant en développement web au <a href="https://www.cf2m.be/home" target="_blank" style="text-decoration: none;">CF2M</a>, je suis actuellement à la recherche d’une opportunité de stage fin octobre pour une durée de six semaines afin de compléter ma formation de 14 mois en développement web full-stack avec l'espoir d'être engagé par la suite. <br><br><br> 
           
           Je possède une expertise intermédiaire dans divers langages tels que HTML, CSS, JavaScript, PHP et je suis déterminé à continuer de développer ces compétences quotidiennement.
@@ -129,7 +137,7 @@ Guillaume Baillieux
             >
             <h6 class="text-white">Site de préformation CF2M | NOVEMBRE 2023</h6>
             <br>
-            <p class="mb-0 mt-1 text-white-50 animate__animated animate__fadeIn" data-wow-delay="0.5s">
+            <p class="mb-0 mt-1 text-white-50">
               Ce projet, comprend une interview d’un Développeur Web Senior et un exposé sur la préservation des jeux-video.
               
               Réalisés en 8 heures, ce projet illustre l’application pratique des compétences acquises pendant la préformation.
@@ -147,6 +155,7 @@ Guillaume Baillieux
     <div class="col-lg-6">
       <a href="https://2023.webdev-cf2m.be/Guillaume/Siteprefo/" target="_blank" rel="noopener noreferrer">
         <img
+        id="siteprefo"
         class="img-fluid"
         src="assets/img/siteprefo.svg"
         alt="site de préformation"
