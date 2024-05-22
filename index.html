@@ -39,16 +39,24 @@
       });
 
       $(document).ready(function(){
-        $('#nom').fadeIn(5000);
+        $('#nom').hide();
+setTimeout(() => {
+  
+  $('#nom').fadeIn(1000);
+}, 2000);
+          
+
       });
 
       $(document).ready(function(){
-        $('#siteprefo').fadeIn(5000);
+        $('#siteprefo').fadeIn();
       });
 
       $(document).ready(function(){
-        $('#presentation').slideDown();
+        $("#presentation").on("scroll", function() {
+        $("#presentation").fadeIn(5000);
       });
+    });
     </script>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
