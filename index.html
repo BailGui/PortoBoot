@@ -40,21 +40,27 @@
 
       $(document).ready(function(){
         $('#nom').hide();
-setTimeout(() => {
-  
-  $('#nom').fadeIn(1000);
-}, 2000);
-          
-
+        $('#nom').fadeIn(2000);
       });
+
+      $(document).ready(function(){
+        $('#job').hide();
+          setTimeout(() => { $('#job').fadeIn(2000);},2000);
+      });
+
+      //$(document).ready(function(){
+        //$('#clickHere').hide();
+          //setTimeout(() => { $('#clickHere').fadeIn(2000);},2000);
+      //});
 
       $(document).ready(function(){
         $('#siteprefo').fadeIn();
       });
 
       $(document).ready(function(){
+        $("#presentation").hide();
         $("#presentation").on("scroll", function() {
-        $("#presentation").fadeIn(5000);
+        $("#presentation").fadeIn(2000);
       });
     });
     </script>
@@ -97,10 +103,10 @@ setTimeout(() => {
     <div class="d-flex justify-content-center">
       <div class="text-center">
         <h1 id="nom" class="mx-auto my-0 text-uppercase">Baillieux Guillaume</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">
+        <h2 id="job" class="text-white-50 mx-auto mt-2 mb-5">
           Web Developpeur Junior. 
         </h2>
-        <a class="btn btn-primary" href="#about">Cliquez ici</a>
+        <a id="clickHere" class="btn btn-primary" href="#about">Cliquez ici</a>
       </div>
     </div>
   </div>
