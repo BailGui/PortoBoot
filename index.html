@@ -81,16 +81,30 @@
 $(document).ready(function(){
       $("#textPrefo").hide();
             $(window).scroll(function() {
-            $("#textPrefo").fadeIn(4000);
+            $("#textPrefo").fadeIn(5000);
           });
         });
 
 $(document).ready(function(){
       $("#sitePrefoImg").hide();
             $(window).scroll(function() {
-            $("#sitePrefoImg").fadeIn(4000);
+            $("#sitePrefoImg").fadeIn(5000);
           });
         });
+
+$(document).ready(function(){
+      $("#valOne").hide();
+            $(window).scroll(function() {
+            $("#valOne").fadeIn(5000);
+          });
+        });
+
+$(document).ready(function(){
+      $("#valOneImg").hide();
+            $(window).scroll(function() {
+            $("#valOneImg").fadeIn(5000);
+          });
+        });        
 
   </script>
 
@@ -151,13 +165,13 @@ $(document).ready(function(){
         <p id="presentation" class="text-white-50">
           Étudiant en développement web au <a href="https://www.cf2m.be/home" target="_blank" style="text-decoration: none;">CF2M</a>, je suis actuellement à la recherche d’une opportunité de stage à partir de novembre pour une durée de six semaines afin de compléter ma formation de 14 mois en développement web full-stack avec l'espoir d'être engagé par la suite. <br><br><br> 
           
-          Je possède une expertise intermédiaire dans divers langages tels que HTML, CSS, JavaScript, PHP et je suis déterminé à continuer de développer ces compétences quotidiennement.
+          <!--Je possède une expertise intermédiaire-->Formé dans divers langages tels que HTML, CSS, JavaScript, PHP. <!--et je suis déterminé à continuer de développer ces compétences quotidiennement.-->
           
           J’ai également acquis une expérience pratique avec des frameworks et librairies tels que Bootstrap, AJAX, Symphony, jQuery et WordPress. En outre, j’ai la capacité de manipuler des bases de données avec MySQL et de concevoir une maquette avec Figma. <br><br><br>
           
 Mon ambition est d'intégrer une entreprise où je pourrai non seulement contribuer de manière significative tout en continuant de développer mes connaissances. <br><br><br>
 
-Ce portfolio est une compilation de mes travaux achevés et en cours, démontrant ma capacité à mener à bien des projets de développement web. Je vous invite à le parcourir pour avoir un aperçu de l'évolution de mes compétences et de mon potentiel en tant que développeur web.
+Ce portfolio est une compilation de mes travaux achevés et en cours, démontrant ma capacité à mener à bien des projets de développement web. Je vous invite à le parcourir pour avoir un aperçu de l'évolution de mes compétences et de mon potentiel.<!-- en tant que développeur web.-->
 <br><br><br>
 Guillaume Baillieux
 </p>
@@ -211,7 +225,7 @@ Guillaume Baillieux
     <!-- Featured Project Row-->
     <div class="row gx-0 mb-5 mt-3 mb-lg-0 justify-content-center">
       <div class="col-lg-6">
-        <div class="bg-black text-center h-100 project">
+        <div id="valOne" class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div
             class="project-text w-100  text-center text-lg-left"
@@ -233,7 +247,7 @@ Guillaume Baillieux
       </div>
     </div>
     <div class="col-lg-6">
-      <a href="https://2023.webdev-cf2m.be/Guillaume/TI/Public/" target="_blank" rel="noopener noreferrer">
+      <a id="valOneImg" href="https://2023.webdev-cf2m.be/Guillaume/TI/Public/" target="_blank" rel="noopener noreferrer">
         <img
         class="img-fluid"
         src="assets/img/ti1.svg"
