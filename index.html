@@ -35,7 +35,7 @@
   <body id="page-top">
     <script>
       $(document).ready(function () {
-        $("#logo").fadeIn(5000);
+        $("#logo").hide().fadeIn(5000);
       });
 
       $(document).ready(function(){
@@ -53,27 +53,30 @@
       });*/
 
       $(document).ready(function(){
-        $('#siteprefo').fadeIn();
-      });
-
-      $(document).ready(function(){
         $("#presentation").hide();
         $("#clickHere").on("click", function() {
         $("#presentation").fadeIn(2000);
       });
     });
 
-      $(document).ready(function(){
+    $(document).ready(function(){
         $("#presentation").hide();
+        $("#clickAbout").on("click", function() {
+        $("#presentation").fadeIn(2000);
+      });
+    });
+
+      $(document).ready(function(){
+        $("#presentation").css('opacity') = '0';
         $("#about").scroll( function() {
-        $("#presentation").show();
+          $("#presentation").fadeIn(2000);
       });
     });
     </script>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container px-4 px-lg-5">
-        <a id="logo" class="navbar-brand" href="#page-top">Portfolio</a>
+        <a id="logo" class="navbar-brand" href="#page-top">BailGui.</a>
         <button
         class="navbar-toggler navbar-toggler-right"
         type="button"
@@ -89,7 +92,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#about">Présentation</a>
+            <a id="clickAbout" class="nav-link" href="#about">Présentation</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#projects">Projets</a>
@@ -125,7 +128,7 @@
         <h2 class="text-white mb-4">Présentation</h2>
         <br><br>
         <p id="presentation" class="text-white-50">
-          Étudiant en développement web au <a href="https://www.cf2m.be/home" target="_blank" style="text-decoration: none;">CF2M</a>, je suis actuellement à la recherche d’une opportunité de stage fin octobre pour une durée de six semaines afin de compléter ma formation de 14 mois en développement web full-stack avec l'espoir d'être engagé par la suite. <br><br><br> 
+          Étudiant en développement web au <a href="https://www.cf2m.be/home" target="_blank" style="text-decoration: none;">CF2M</a>, je suis actuellement à la recherche d’une opportunité de stage à partir de novembre pour une durée de six semaines afin de compléter ma formation de 14 mois en développement web full-stack avec l'espoir d'être engagé par la suite. <br><br><br> 
           
           Je possède une expertise intermédiaire dans divers langages tels que HTML, CSS, JavaScript, PHP et je suis déterminé à continuer de développer ces compétences quotidiennement.
           
