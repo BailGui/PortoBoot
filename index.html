@@ -39,19 +39,18 @@
       });
 
       $(document).ready(function(){
-        $('#nom').hide();
-        $('#nom').fadeIn(2000);
+        $('#nom').hide().fadeIn(2000);
       });
 
-      $(document).ready(function(){
+      /*$(document).ready(function(){
         $('#job').hide();
           setTimeout(() => { $('#job').fadeIn(2000);},2000);
-      });
+      });*/
 
-      //$(document).ready(function(){
-        //$('#clickHere').hide();
-          //setTimeout(() => { $('#clickHere').fadeIn(2000);},2000);
-      //});
+      /*$(document).ready(function(){
+        $('#clickHere').hide();
+          setTimeout(() => { $('#clickHere').fadeIn(2000);},2000);
+      });*/
 
       $(document).ready(function(){
         $('#siteprefo').fadeIn();
@@ -59,8 +58,15 @@
 
       $(document).ready(function(){
         $("#presentation").hide();
-        $("#presentation").on("scroll", function() {
+        $("#clickHere").on("click", function() {
         $("#presentation").fadeIn(2000);
+      });
+    });
+
+      $(document).ready(function(){
+        $("#presentation").hide();
+        $("#about").scroll( function() {
+        $("#presentation").show();
       });
     });
     </script>
