@@ -38,7 +38,7 @@
 
 //header
       $(document).ready(function () {
-        $("#logo").hide().fadeIn(5000);
+        $("#logo").hide().fadeIn(2000);
       });
 
       $(document).ready(function(){
@@ -82,6 +82,13 @@ $(document).ready(function(){
       $("#textPrefo").hide();
             $(window).scroll(function() {
             $("#textPrefo").fadeIn(4000);
+          });
+        });
+
+$(document).ready(function(){
+      $("#sitePrefoImg").hide();
+            $(window).scroll(function() {
+            $("#sitePrefoImg").fadeIn(4000);
           });
         });
 
@@ -190,7 +197,7 @@ Guillaume Baillieux
       </div>
     </div>
     <div class="col-lg-6">
-      <a href="https://2023.webdev-cf2m.be/Guillaume/Siteprefo/" target="_blank" rel="noopener noreferrer">
+      <a id="sitePrefoImg" href="https://2023.webdev-cf2m.be/Guillaume/Siteprefo/" target="_blank" rel="noopener noreferrer">
         <img
         id="siteprefo"
         class="img-fluid"
