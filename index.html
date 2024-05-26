@@ -98,6 +98,12 @@ $(document).ready(function(){
 });
 });
 
+$(document).ready(function(){
+  $("#btnNl").click(function() {
+            $("#presentation").replaceWith("<p id='presentation' class='text-white-50'>Webontwikkelingsstudent aan de <a href='https://www.cf2m.be/formation/developpeur-web' target='_blank' style='text-decoration: none;''>CF2M</a>. Ik ben momenteel op zoek naar een stage vanaf november voor zes weken om mijn opleiding van 14 maanden in full-stack webontwikkeling af te ronden, in de hoop daarna aangenomen te worden. <br><br><br> Ik heb training gehad in verschillende talen zoals HTML, CSS, JavaScript, PHP. Ik heb ook praktijkervaring opgedaan met frameworks en bibliotheken zoals Bootstrap, AJAX, Symphony, jQuery en WordPress. Daarnaast kan ik databases manipuleren met MySQL en een mockup ontwerpen met Figma. <br><br><br> Mijn doel is om bij een bedrijf te werken waar ik een significante bijdrage kan leveren en tegelijkertijd mijn kennis kan blijven ontwikkelen. <br><br><br> Deze portfolio is een verzameling van mijn voltooide en lopende werk, en toont mijn vermogen om succesvol webontwikkelingsprojecten uit te voeren. Ik nodig je uit om er doorheen te bladeren om een overzicht te krijgen van de evolutie van mijn vaardigheden en mijn potentieel. <br><br><br> Guillaume Baillieux</p>")
+});
+});
+
 
 $(document).ready(function(){
   
@@ -225,7 +231,7 @@ $(document).ready(function(){
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <div class="col-lg-8">
         <h2 class="text-white mb-4">Présentation</h2>
-        <button id="btnEn" class="text-white" style="border: none; background-color: black;">EN</button>
+        <button id="btnEn" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnNl" class="text-white" style="border: none; background-color: black;">NL</button>
         <br>
         <br>
         <p id="presentation" class="text-white-50">
