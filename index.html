@@ -93,6 +93,12 @@
 //main
 
 $(document).ready(function(){
+  $("#btnFr").click(function() {
+            $("#presentation").replaceWith("<p id='presentation' class='text-white-50'>Étudiant en développement web au <a href='https://www.cf2m.be/formation/developpeur-web' target='_blank' style='text-decoration: none;''>CF2M</a>, je suis actuellement à la recherche d’une opportunité de stage à partir de novembre pour une durée de six semaines afin de compléter ma formation de 14 mois en développement web full-stack avec l'espoir d'être engagé par la suite. <br><br><br> Formé dans divers langages tels que HTML, CSS, JavaScript, PHP. J’ai également acquis une expérience pratique avec des frameworks et librairies tels que Bootstrap, AJAX, Symphony, jQuery et WordPress. En outre, j’ai la capacité de manipuler des bases de données avec MySQL et de concevoir une maquette avec Figma. <br><br><br> Mon ambition est d'intégrer une entreprise où je pourrai non seulement contribuer de manière significative tout en continuant de développer mes connaissances. <br><br><br> Ce portfolio est une compilation de mes travaux achevés et en cours, démontrant ma capacité à mener à bien des projets de développement web. Je vous invite à le parcourir pour avoir un aperçu de l'évolution de mes compétences et de mon potentiel. <br><br><br> Guillaume Baillieux</p>")
+});
+});
+
+$(document).ready(function(){
   $("#btnEn").click(function() {
             $("#presentation").replaceWith("<p id='presentation' class='text-white-50'>Web development student at <a href='https://www.cf2m.be/formation/developpeur-web' target='_blank' style='text-decoration: none;''>CF2M</a>, I am currently looking for an internship opportunity from November for a duration of six weeks to complete my 14-month training in full-stack web development with the hope of being hired afterwards. <br><br><br> Trained in various languages such as HTML, CSS, JavaScript, PHP. I have also gained practical experience with frameworks and libraries such as Bootstrap, AJAX, Symphony, jQuery and WordPress. In addition, I have the ability to manipulate databases with MySQL and design a mockup with Figma. <br><br><br> My ambition is to join a company where I can not only contribute significantly while continuing to develop my knowledge. <br><br><br> This portfolio is a compilation of my completed and ongoing work, demonstrating my ability to successfully carry out web development projects. I invite you to browse it to get an overview of the evolution of my skills and my potential. <br><br><br> Guillaume Baillieux</p>")
 });
@@ -231,7 +237,7 @@ $(document).ready(function(){
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <div class="col-lg-8">
         <h2 class="text-white mb-4">Présentation</h2>
-        <button id="btnEn" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnNl" class="text-white" style="border: none; background-color: black;">NL</button>
+        <button id="btnFr" class="text-white" style="border: none; background-color: black;">FR</button><span class="text-white">|</span><button id="btnEn" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnNl" class="text-white" style="border: none; background-color: black;">NL</button>
         <br>
         <br>
         <p id="presentation" class="text-white-50">
