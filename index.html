@@ -134,6 +134,27 @@ $(document).ready(function(){
 });
 });
 
+$(document).ready(function(){
+  $("#btnFirstFr").click(function() {
+            $("#textFirst").replaceWith("<p id='textFirst' class='mb-0 mt-1 text-white-50'> Ce projet de validation comprend la création d’une réplique exacte d’un site touristique existant en utilisant uniquement les principes fondamentaux du HTML et du CSS. L’objectif est d’intégrer parfaitement tous les éléments visuels et fonctionnels du site original dans la reproduction.<br><br> REALISATION : 8h | CONTENU & DESIGN : /<br><br> HTML5 | CSS3 | NON-RESPONSIVE </p>");
+            $("#titleFirst").replaceWith("<h6 id='titleFirst' class='text-white'>1ère validation | DECEMBRE 2023</h6>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnFirstEn").click(function() {
+            $("#textFirst").replaceWith("<p id='preText' class='mb-0 mt-1 text-white-50'>This project includes an interview with a Senior Web Developer and a presentation on video game preservation. Completed in 8 hours, this project illustrates the practical application of skills acquired during pre-training.<br><br> REALIZATION: 8h | CONTENT & DESIGN: 1 week. <br><br> HTML5 | CSS3 | NON-RESPONSIVE </p>");
+            $("#titleFirst").replaceWith("<h6 id='titlePre' class='text-white'>CF2M Pre-training Site | NOVEMBER 2023</h6>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnFirstNl").click(function() {
+            $("#textFirst").replaceWith("<p id='preText' class='mb-0 mt-1 text-white-50'>Dit project omvat een interview met een Senior Web Developer en een presentatie over het behoud van videogames. Voltooid in 8 uur, dit project illustreert de praktische toepassing van vaardigheden verworven tijdens de vooropleiding.<br><br> REALISATIE: 8u | INHOUD & ONTWERP: 1 week. <br><br> HTML5 | CSS3 | NIET-RESPONSIEF </p>");
+            $("#titleFirst").replaceWith("<h6 id='titlePre' class='text-white'>CF2M Vooropleiding Site | NOVEMBER 2023</h6>");
+});
+});
+
 
 $(document).ready(function(){
   
@@ -334,7 +355,7 @@ Guillaume Baillieux
             <div
             class="project-text w-100  text-center text-lg-left"
             >
-            <h6 class="text-white">1ère validation | DECEMBRE 2023</h6>
+            <h6 id="titleFirst" class="text-white">1ère validation | DECEMBRE 2023</h6>
             <button id="btnFirstFr" class="text-white" style="border: none; background-color: black;">FR</button><span class="text-white">|</span><button id="btnFirstEn" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnFirstNl" class="text-white" style="border: none; background-color: black;">NL</button>
             <br>
             <p id="textFirst" class="mb-0 mt-1 text-white-50">
