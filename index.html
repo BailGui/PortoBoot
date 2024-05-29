@@ -177,6 +177,27 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $("#btnFrThird").click(function() {
+            $("#textThird").replaceWith("<p id='textThird' class='mb-0 mt-1 text-white-50'> Ce projet de validation comprend un site web doté d’une carte interactive affichant des points d’intérêt. Il comprend une interface d’administration pour gérer les données et les points d’intérêt sur la carte. <br><br> REALISATION : 8h | CONTENU & DESIGN : 6h <br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | RESPONSIVE </p>");
+            $("#titleThird").replaceWith("<h6 id='titleThird' class='text-white'>3 ième validation | AVRIL 2024</h6>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnEnThird").click(function() {
+            $("#textThird").replaceWith("<p id='textThird' class='mb-0 mt-1 text-white-50'> This validation project includes a website with an interactive map displaying points of interest. It features an administration interface for managing data and points of interest on the map. <br><br> IMPLEMENTATION: 8h | CONTENT & DESIGN: 6h <br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | RESPONSIVE</p>");
+            $("#titleThird").replaceWith("<h6 id='titleThird' class='text-white'>3rd validation | APRIL 2024</h6>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnNlThird").click(function() {
+            $("#textThird").replaceWith("<p id='textThird' class='mb-0 mt-1 text-white-50'> Dit validatieproject omvat een website met een interactieve kaart die punten van belang weergeeft. Het bevat een beheerinterface om gegevens en punten van belang op de kaart te beheren. <br><br> UITVOERING: 8 uur | INHOUD & ONTWERP: 6 uur <br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | RESPONSIVE </p>");
+            $("#titleThird").replaceWith("<h6 id='titleThird' class='text-white'>3e validatie | APRIL 2024</h6>");
+});
+});
+
+$(document).ready(function(){
   
       $("#textPrefo").hide();
             $(window).scroll(function() {
@@ -448,12 +469,13 @@ Guillaume Baillieux
                       <div
                       class="project-text w-100  text-center text-lg-left"
                       >
-                      <h6 class="text-white">3 ième validation | AVRIL 2024</h6>
-                      <br>
-                      <p class="mb-0 mt-1 text-white-50">
+                      <h6 id="titleThird" class="text-white">3 ième validation | AVRIL 2024</h6>
+                      <button id="btnFrThird" class="text-white" style="border: none; background-color: black;">FR</button><span class="text-white">|</span><button id="btnEnThird" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnNlThird" class="text-white" style="border: none; background-color: black;">NL</button>
+                      <br><br>
+                      <p id="textThird" class="mb-0 mt-1 text-white-50">
                         Ce projet de validation comprend un site web doté d’une carte interactive affichant des points d’intérêt. 
                         Il comprend une interface d’administration pour gérer les données et les points d’intérêt sur la carte. 
-                        <br>
+                      <br>
                       <br>
                       REALISATION : 8h | CONTENU & DESIGN : 6h
                       <br>
