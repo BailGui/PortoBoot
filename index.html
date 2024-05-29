@@ -115,14 +115,14 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#btnFrPr").click(function() {
-            $("#preText").replaceWith("<p id='preText' class='mb-0 mt-1 text-white-50'>Ce projet comprend une interview d’un Développeur Web Senior et un exposé sur la préservation des jeux-vidéo. Réalisé en 8 heures, ce projet illustre l’application pratique des compétences acquises pendant la préformation.<br><br> REALISATION : 8h | CONTENU & DESIGN : 1sem. <br><br> HTML5 | CSS3 | NON-RESPONSIVE </p>");
+            $("#preText").replaceWith("<p id='preText' class='mb-0 mt-1 text-white-50'>Ce projet comprend une interview d’un Développeur Web Senior et un exposé sur la préservation des jeux-vidéo. Réalisé en 8 heures, ce projet illustre l’application pratique des compétences acquises pendant la préformation.<br><br> REALISATION: 8h | CONTENU & DESIGN : 1sem. <br><br> HTML5 | CSS3 | NON-RESPONSIVE </p>");
             $("#titlePre").replaceWith("<h6 id='titlePre' class='text-white'>Site de préformation CF2M | NOVEMBRE 2023</h6>");
 });
 });
 
 $(document).ready(function(){
   $("#btnEnPr").click(function() {
-            $("#preText").replaceWith("<p id='preText' class='mb-0 mt-1 text-white-50'>This project includes an interview with a Senior Web Developer and a presentation on video game preservation. Completed in 8 hours, this project illustrates the practical application of skills acquired during pre-training.<br><br> REALIZATION: 8h | CONTENT & DESIGN: 1 week. <br><br> HTML5 | CSS3 | NON-RESPONSIVE </p>");
+            $("#preText").replaceWith("<p id='preText' class='mb-0 mt-1 text-white-50'>This project includes an interview with a Senior Web Developer and a presentation on video game preservation. Completed in 8 hours, this project illustrates the practical application of skills acquired during pre-training.<br><br> IMPLEMENTATION: 8h | CONTENT & DESIGN: 1 week. <br><br> HTML5 | CSS3 | NON-RESPONSIVE </p>");
             $("#titlePre").replaceWith("<h6 id='titlePre' class='text-white'>CF2M Pre-training Site | NOVEMBER 2023</h6>");
 });
 });
@@ -194,6 +194,27 @@ $(document).ready(function(){
   $("#btnNlThird").click(function() {
             $("#textThird").replaceWith("<p id='textThird' class='mb-0 mt-1 text-white-50'> Dit validatieproject omvat een website met een interactieve kaart die punten van belang weergeeft. Het bevat een beheerinterface om gegevens en punten van belang op de kaart te beheren. <br><br> UITVOERING: 8 uur | INHOUD & ONTWERP: 6 uur <br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | RESPONSIVE </p>");
             $("#titleThird").replaceWith("<h6 id='titleThird' class='text-white'>3e validatie | APRIL 2024</h6>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnFrJv").click(function() {
+            $("#textJv").replaceWith("<p id='textThird' class='mb-0 mt-1 text-white-50'> Ce projet de validation comprend un site web doté d’une carte interactive affichant des points d’intérêt. Il comprend une interface d’administration pour gérer les données et les points d’intérêt sur la carte. <br><br> REALISATION : 8h | CONTENU & DESIGN : 6h <br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | RESPONSIVE </p>");
+            $("#titleJv").replaceWith("<h6 id='titleThird' class='text-white'>3 ième validation | AVRIL 2024</h6>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnEnJv").click(function() {
+            $("#textJv").replaceWith("<p id='textThird' class='mb-0 mt-1 text-white-50'> This validation project includes a website with an interactive map displaying points of interest. It features an administration interface for managing data and points of interest on the map. <br><br> IMPLEMENTATION: 8h | CONTENT & DESIGN: 6h <br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | RESPONSIVE</p>");
+            $("#titleJv").replaceWith("<h6 id='titleThird' class='text-white'>3rd validation | APRIL 2024</h6>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnNlJv").click(function() {
+            $("#textJv").replaceWith("<p id='textThird' class='mb-0 mt-1 text-white-50'> Dit validatieproject omvat een website met een interactieve kaart die punten van belang weergeeft. Het bevat een beheerinterface om gegevens en punten van belang op de kaart te beheren. <br><br> UITVOERING: 8 uur | INHOUD & ONTWERP: 6 uur <br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | RESPONSIVE </p>");
+            $("#titleJv").replaceWith("<h6 id='titleThird' class='text-white'>3e validatie | APRIL 2024</h6>");
 });
 });
 
@@ -505,9 +526,10 @@ Guillaume Baillieux
                       <div
                       class="project-text w-100  text-center text-lg-left"
                       >
-                      <h6 class="text-white">site d'actu. JV | W.I.P.</h6>
-                      <br>
-                      <p class="mb-0 mt-1 text-white-50">
+                      <h6 id="titleJv" class="text-white">site d'actu. JV | W.I.P.</h6>
+                      <button id="btnFrJv" class="text-white" style="border: none; background-color: black;">FR</button><span class="text-white">|</span><button id="btnEnJv" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnNlJv" class="text-white" style="border: none; background-color: black;">NL</button>
+                      <br><br>
+                      <p id="textJv" class="mb-0 mt-1 text-white-50">
                       Projet personnel de création d’un site web dédié aux actualités de l'industrie du jeu vidéo, à la fois VR et FLAT console. 
                       <br>
                       <br>
