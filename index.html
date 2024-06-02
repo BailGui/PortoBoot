@@ -214,6 +214,31 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $("#btnFrJquery").click(function() {
+            $("#textJquery").replaceWith("<p id='textJquery' class='mb-0 mt-1 text-white-50'>Ce projet comprend une librairie de méthodes jQuery.<br><br> REALISATION : 10h | CONTENU & DESIGN : 2h <br><br> JQUERY | BOOTSTRAP | HTML5 | CSS3 | FIGMA | RESPONSIVE </p>");
+            $("#titleJquery").replaceWith("<h6 id='titleJquery' class='text-white'>jQueryLibrary | JUIN 2024</h6>");
+            $("#titleProj").replaceWith("<h2 id='titleProj' class='text-dark text-center mt-5'>Projets</h2>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnEnJquery").click(function() {
+            $("#textJquery").replaceWith("<p id='textJquery' class='mb-0 mt-1 text-white-50'> This project includes a library of jQuery methods. <br><br> IMPLEMENTATION: 10h | CONTENT & DESIGN: 2h <br><br> JQUERY | BOOTSTRAP | HTML5 | CSS3 | FIGMA | RESPONSIVE</p>");
+            $("#titleJquery").replaceWith("<h6 id='titleJquery' class='text-white'>jQueryLibrary | JUNE 2024</h6>");
+            $("#titleProj").replaceWith("<h2 id='titleProj' class='text-dark text-center mt-5'>Projects</h2>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnNlJquery").click(function() {
+            $("#textJquery").replaceWith("<p id='textJquery' class='mb-0 mt-1 text-white-50'> Dit project omvat een bibliotheek met jQuery-methoden. <br><br>  REALISATIE: 10 uur | INHOUD & ONTWERP: 2 uur <br><br> JQUERY | BOOTSTRAP | HTML5 | CSS3 | FIGMA | RESPONSIVE </p>");
+            $("#titleJquery").replaceWith("<h6 id='titleJquery' class='text-white'>jQueryLibrary | JUNI 2024</h6>");
+            $("#titleProj").replaceWith("<h2 id='titleProj' class='text-dark text-center mt-5'>Projecten</h2>");
+
+});
+});
+
+$(document).ready(function(){
   $("#btnFrJv").click(function() {
             $("#textJv").replaceWith("<p id='textJv' class='mb-0 mt-1 text-white-50'> Projet personnel de création d’un site web dédié aux actualités de l'industrie du jeu vidéo, à la fois VR et FLAT console. <br><br> REALISATION : .. | CONTENU & DESIGN : ..<br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | FIGMA | RESPONSIVE</p>");
             $("#titleJv").replaceWith("<h6 id='titleJv' class='text-white'>site d'actu. JV | W.I.P.</h6>");
@@ -292,6 +317,20 @@ $(document).ready(function(){
       $("#valThreeImg").hide();
             $(window).scroll(function() {
             $("#valThreeImg").fadeIn(5000);
+          });
+        }); 
+
+$(document).ready(function(){
+      $("#Jquery").hide();
+            $(window).scroll(function() {
+            $("#Jquery").fadeIn(5000);
+          });
+        });
+
+$(document).ready(function(){
+      $("#JqueryImg").hide();
+            $(window).scroll(function() {
+            $("#JqueryImg").fadeIn(5000);
           });
         }); 
         
@@ -541,6 +580,41 @@ Guillaume Baillieux
                     <img
                     class="img-fluid"
                     src="assets/img/ti3.svg"
+                    alt="TI-3"
+                    /></a>
+                  </div>
+                </div>
+            </div>
+            <div class="container px-4 px-lg-5">
+              <!-- Featured Project Row-->
+              <div class="row gx-0 mb-5 mt-3 mb-lg-0 justify-content-center">
+                <div class="col-lg-6">
+                  <div id="Jquery" class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div
+                      class="project-text w-100  text-center text-lg-left"
+                      >
+                      <h6 id="titleJquery" class="text-white">jQueryLibrary | JUIN 2024</h6>
+                      <button id="btnFrJquery" class="text-white" style="border: none; background-color: black;">FR</button><span class="text-white">|</span><button id="btnEnJquery" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnNlJquery" class="text-white" style="border: none; background-color: black;">NL</button>
+                      <br><br>
+                      <p id="textJquery" class="mb-0 mt-1 text-white-50">
+                        Ce projet comprend une librairie de méthodes jQuery. 
+                      <br>
+                      <br>
+                      REALISATION : 10h | CONTENU & DESIGN : 2h
+                      <br>
+                      <br>
+                       JQUERY| BOOTSTRAP | HTML5 | CSS3 | RESPONSIVE
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="col-lg-6">
+                  <a id="JqueryImg" href="https://2023.webdev-cf2m.be/Guillaume/TI-3/public/" target="_blank" rel="noopener noreferrer">
+                    <img
+                    class="img-fluid"
+                    src="assets/img/jQueryLibrary.svg"
                     alt="TI-3"
                     /></a>
                   </div>
